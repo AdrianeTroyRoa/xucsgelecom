@@ -1,8 +1,8 @@
 +++
 title = 'Consultation With Sir Rangie'
-date = 2023-12-18T16:17:48+08:00
+date = 2023-12-18T19:10:46+08:00
 image = '2.jpg'
-draft = true
+draft = false
 +++
 
-Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+On November 29, 2023, the Electoral Commission held a consultation meeting with the former ELECOM Chief Commissioner and current University Registrar, Mr. Jun Rangie Obispo, in the Lolo Kiko Collaboration Space (STC 215). The meeting discussed the Commission’s plans for the Botar Atenista. Concerns pertaining to discrepancies observed within year levels in eLearn during the election period were also addressed. Valuable insights were shared to resolve these issues, emphasizing the importance of proactive measures to ensure integrity and transparency.

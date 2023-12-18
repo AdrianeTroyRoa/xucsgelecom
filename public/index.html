@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+	<meta name="generator" content="Hugo 0.121.1">
         <title>Xavier Botar Atenista</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,27 +65,57 @@
             <div class="container" id="recent">
                 <div style="padding-top:24vh;padding-bottom:2em;">
                    <h1 class="d-flex justify-content-center align-items-center">Posts</h1>
-                   {{ if eq (len .Site.RegularPages.ByDate.Reverse) 0 }}
-                        <p class="text-center">No posts yet.</p>
-                   {{else}}
-                       {{range .Site.RegularPages.ByDate.Reverse}}
+                   
+                       
                             <div class="d-flex flex-column py-4">
                                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md- g-3 justify-content-center">
                                     <div class="col">
                                         <div class="card shadow-sm">
-                                            <a href="{{ .Permalink }}">
-                                                <img class="bd-placeholder-img card-img-top" alt="image" src="/images/{{ .Params.image }}" width="100%" height="auto" id="image">
+                                            <a href="https://example.org/posts/consultation-with-sir-rangie/">
+                                                <img class="bd-placeholder-img card-img-top" alt="image" src="/images/2.jpg" width="100%" height="auto" id="image">
                                             </a>
                                             <div class="card-body">
-                                                <h2 class="card-title">{{ .Title }}</h2>
-                                                <p class="card-text"><strong>Date Published: </strong>{{ .Date.Format "January 2, 2006" }}</p>
+                                                <h2 class="card-title">Consultation With Sir Rangie</h2>
+                                                <p class="card-text"><strong>Date Published: </strong>December 18, 2023</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        {{ end }}
-                    {{ end }}
+                        
+                            <div class="d-flex flex-column py-4">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md- g-3 justify-content-center">
+                                    <div class="col">
+                                        <div class="card shadow-sm">
+                                            <a href="https://example.org/posts/planning-phase-initiated/">
+                                                <img class="bd-placeholder-img card-img-top" alt="image" src="/images/1.jpg" width="100%" height="auto" id="image">
+                                            </a>
+                                            <div class="card-body">
+                                                <h2 class="card-title">Planning Phase Initiated</h2>
+                                                <p class="card-text"><strong>Date Published: </strong>December 18, 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="d-flex flex-column py-4">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md- g-3 justify-content-center">
+                                    <div class="col">
+                                        <div class="card shadow-sm">
+                                            <a href="https://example.org/posts/consultation-for-botar-modules/">
+                                                <img class="bd-placeholder-img card-img-top" alt="image" src="/images/3.jpg" width="100%" height="auto" id="image">
+                                            </a>
+                                            <div class="card-body">
+                                                <h2 class="card-title">Consultation for Botar Modules</h2>
+                                                <p class="card-text"><strong>Date Published: </strong>December 18, 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    
                 </div>
             </div>
         </main>

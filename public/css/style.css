@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+.brand{
+    font-weight:bold;
+    font-family:'Times New Roman';
+    font-size: 17pt;
+}
+
+.d-flex{
+    gap:1em;
+}
+
+.subbrand{
+    font-weight:bold;
+    font-size: 7pt;
+    border: 1px transparent;
+    background-color: #002E73;
+    padding: 5px;
+    text-shadow: 1px 1px black;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', serif;
+}
+
+.head-logo{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 40pt;
+    text-align: center;
+}
+
+h2, .header-link{
+    font-family: 'Paytone One', sans-serif;
+}
+
+p, .register-link, .footer-color {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14pt;
+}
+
+p{
+    font-size: 15pt;
+    text-align: justify;
+}
+
+.card-text{
+    font-size: 11pt;
+}
+
+.logo-img{
+    width: 20vh;
+    border-radius: 100%;
+
+}
+
+.blue-in-header{
+    color: #002E73;
+}
+
+.footer-color, .background-landing{
+    background-color: #002E73;
+    color: #ffd020;
+}
+
+.background-landing{
+    padding-top: 10vh;
+}
+
+.footer-color{
+    font-size: 11pt;
+}
+
+.register-link{
+    border: 3px solid #ffd020;
+    font-weight: bold;
+    color: #ffd020;
+}
+
+.register-link:hover{
+    color: #002E73;
+    background-color: #ffd020;
+    box-shadow: 2px 2px 2px 2px #111;
+}
+
+.header-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffd020;
+    text-decoration-thickness: 3px;
+}
+
+.fb-link{
+    color: #002E73;
+}
+.fb-link:hover{
+    color: #1877F2;
+}
+
+.x-link{
+    color: #ffd020;
+}
+.x-link:hover{
+    border: 1px solid #333;
+    color: #eee;
+    background-color: #333;
+}
+
+.ig-link{
+    color: #ffd020;
+}
+.ig-link:hover{
+    color: #E4405F;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    font-size: 72pt;
+    border: 1px transparent;
+    background-color: rgba(0,0,252,1);
+    border-radius: 100%;
+    padding: 0.2em;
+}
+
+.carousel {
+  width: 100%; /* Set the carousel width to fill its container */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.carousel-inner {
+  display: flex; /* Use flexbox for the carousel items */
+  transition: transform 0.3s ease; /* Smooth transition for sliding effect */
+}
+
+.carousel-item {
+  flex: 0 0 100%; /* Set each carousel item to occupy full width */
+  max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+.carousel img {
+  width: auto; /* Make images fill their parent container */
+  height: auto; /* Maintain aspect ratio */
+}
