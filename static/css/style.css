@@ -161,16 +161,17 @@ p{
         padding-top:18vh;
     }
     .date-in-single{
-        font-size: 9pt;
+        font-size: 12pt;
+        max-width: 100%;
+    }
+    .post-section{
+        padding-top:30vh;
     }
 }
 
 @media (max-width: 300px) {
     .head-logo{
         font-size: 28pt;
-    }
-    .post-section{
-        padding-top:30vh;
     }
     .welcome-section{
         padding-top:18vh;
