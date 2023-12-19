@@ -50,10 +50,10 @@
             </div>
         </header>
         <main class="text-dark">
-            <div class="container" style="padding-top:27vh;">
+            <div class="container title-in-single">
                 <div class="d-flex flex-column align-items-center">
                     <h1 class="text-center">{{ .Title }}</h1>
-                    <p>{{ .Date.Format "January 2, 2006" }}</p>
+                    <p class="date-in-single">{{ .Date.Format "January 2, 2006" }}</p>
                     <div class="col-md-6">
                         <img src="/images/{{ .Params.image }}" style="max-width:90%;" class="d-block mx-auto" alt="{{ .Params.image }}">
                     </div>
