@@ -60,12 +60,12 @@ p{
 }
 
 .footer-color, .background-landing{
-    background-color: #002E73;
     color: #ffd020;
 }
 
 .background-landing{
     padding-top: 10vh;
+    background-color: white;
 }
 
 .footer-color{
@@ -140,3 +140,14 @@ p{
   width: auto; /* Make images fill their parent container */
   height: auto; /* Maintain aspect ratio */
 }
+
+@media (max-width: 740px) {
+    .head-logo{
+        font-size: 12pt;
+    }
+
+    .background-landing{
+        background-color: white;
+    }
+}
+
