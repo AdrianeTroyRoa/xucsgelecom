@@ -149,9 +149,6 @@ p{
 .title-in-single{
     padding-top:18vh;
 }
-.date-in-single{
-    font-size: 12pt;
-}
 
 @media (max-width: 540px) {
     .head-logo{
@@ -162,6 +159,9 @@ p{
     }
     .welcome-section{
         padding-top:18vh;
+    }
+    .date-in-single{
+        font-size: 9pt;
     }
 }
 
