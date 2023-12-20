@@ -1,3 +1,6 @@
 baseURL = 'https://xucsg-elecom.netlify.com/'
 languageCode = 'en-ph'
 title = 'Xavier Botar Atenista'
+
+[permalinks]
+notFound = '/404.html'
