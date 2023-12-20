@@ -150,6 +150,11 @@ p{
     padding-top:18vh;
 }
 
+
+.link-btn{
+    width:21em;
+}
+
 @media (max-width: 540px) {
     .head-logo{
         font-size: 32pt;
@@ -167,6 +172,9 @@ p{
     .post-section{
         padding-top:30vh;
     }
+    .link-btn{
+        width:15em;
+    }
 }
 
 @media (max-width: 300px) {
@@ -175,5 +183,8 @@ p{
     }
     .welcome-section{
         padding-top:18vh;
+    }
+    .link-btn{
+        width:13em;
     }
 }
