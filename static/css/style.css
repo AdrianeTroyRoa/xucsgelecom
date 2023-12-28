@@ -63,10 +63,6 @@ p{
     background-color: #002E73;
 }
 
-#background-landing{
-    padding-top: 10vh;
-}
-
 .footer-color{
     font-size: 11pt;
 }
@@ -158,18 +154,12 @@ p{
     .head-logo{
         font-size: 32pt;
     }
-    .title-in-single{
-        padding-top:30vh;
-    }
     .welcome-section{
         padding-top:18vh;
     }
     .date-in-single{
         font-size: 12pt;
         max-width: 100%;
-    }
-    .post-section{
-        padding-top:30vh;
     }
     .link-btn{
         width:15em;

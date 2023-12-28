@@ -11,7 +11,7 @@
     </head>
     <body>
         <header class="fixed-top py-3 bg-light">
-            <div class="container">
+            <div class="d-none d-xl-block d-lg-block d-md-block container">
               <div
                 class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
               >
@@ -19,7 +19,7 @@
                   href="/"
                   class="align-items-center me-lg-auto text-decoration-none"
                 >
-                    <div class="brand blue-in-header">
+                    <div class="brand blue-in-header text-center">
                         BOTAR ATENISTA
                     </div>
                     <div class="subbrand text-light text-center">
@@ -51,6 +51,38 @@
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div class="container d-block d-sm-block d-md-none">
+              <div
+                class="d-flex flex-wrap align-items-center justify-content-between"
+              >
+                  <div class="mr-3">
+                      <a
+                          href="/"
+                          class="align-items-center me-lg-auto text-decoration-none"
+                      >
+                          <div class="brand blue-in-header text-center">
+                              BOTAR ATENISTA
+                          </div>
+                          <div class="subbrand text-light text-center">
+                              A THRUST FOR A CONSCIENTOUS VOTING
+                          </div>
+                      </a>
+                  </div>
+                <div class="dropdown ml-3 justify-content-center my-md-0">
+                    <button type="button" class="btn btn-outline-primary btn-md" data-bs-toggle="dropdown">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-listnav" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/#home">Home</a></li>
+                        <li><a class="dropdown-item" href="/#recent">Posts</a></li>
+                        <li><a class="dropdown-item" href="/#contact">Contact</a></li>
+                        <li><a class="dropdown-item" href="/links.html">Links</a></li>
+                    </ul>
+                </div>
               </div>
             </div>
         </header>
