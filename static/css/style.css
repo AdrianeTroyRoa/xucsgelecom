@@ -150,16 +150,17 @@ p{
     width:21em;
 }
 
+.date-in-single{
+    font-size: 12pt;
+    max-width: 100%;
+}
+
 @media (max-width: 540px) {
     .head-logo{
         font-size: 32pt;
     }
     .welcome-section{
         padding-top:18vh;
-    }
-    .date-in-single{
-        font-size: 12pt;
-        max-width: 100%;
     }
     .link-btn{
         width:15em;
