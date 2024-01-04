@@ -157,9 +157,10 @@ p{
 
 .btn-primary, .btn-outline-primary:hover{
     background-color: #002E73;
+    border-color: #002E73; 
 }
 
-.btn-outline-primary{
+.btn-outline-primary, {
     border-color: #002E73; 
 }
 
