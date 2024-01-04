@@ -54,7 +54,7 @@ p{
 
 }
 
-.blue-in-header{
+.blue-in-header, .btn-outline-primary{
     color: #002E73;
 }
 
@@ -153,6 +153,14 @@ p{
 .date-in-single{
     font-size: 12pt;
     max-width: 100%;
+}
+
+.btn-primary, .btn-outline-primary:hover{
+    background-color: #002E73;
+}
+
+.btn-outline-primary{
+    border-color: #002E73; 
 }
 
 @media (max-width: 540px) {
