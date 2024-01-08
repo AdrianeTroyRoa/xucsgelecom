@@ -42,7 +42,6 @@ p, .register-link, .footer-color {
 
 p{
     font-size: 15pt;
-    text-align: justify;
 }
 
 .card-text{
@@ -55,17 +54,13 @@ p{
 
 }
 
-.blue-in-header{
+.blue-in-header, .btn-outline-primary{
     color: #002E73;
 }
 
-.footer-color, .background-landing{
+.footer-color, #background-landing{
     color: #ffd020;
-}
-
-.background-landing{
-    padding-top: 10vh;
-    background-color: white;
+    background-color: #002E73;
 }
 
 .footer-color{
@@ -141,13 +136,54 @@ p{
   height: auto; /* Maintain aspect ratio */
 }
 
-@media (max-width: 740px) {
-    .head-logo{
-        font-size: 12pt;
-    }
+.post-section{
+    padding-top:22vh;
+    padding-bottom:2em;
+}
 
-    .background-landing{
-        background-color: white;
+.title-in-single{
+    padding-top:18vh;
+}
+
+
+.link-btn{
+    width:21em;
+}
+
+.date-in-single{
+    font-size: 12pt;
+    max-width: 100%;
+}
+
+.btn-primary, .btn-outline-primary:hover{
+    background-color: #002E73;
+    border-color: #002E73; 
+}
+
+.btn-outline-primary, {
+    border-color: #002E73; 
+}
+
+@media (max-width: 540px) {
+    .head-logo{
+        font-size: 32pt;
+    }
+    .welcome-section{
+        padding-top:18vh;
+    }
+    .link-btn{
+        width:15em;
     }
 }
 
+@media (max-width: 300px) {
+    .head-logo{
+        font-size: 28pt;
+    }
+    .welcome-section{
+        padding-top:18vh;
+    }
+    .link-btn{
+        width:13em;
+    }
+}

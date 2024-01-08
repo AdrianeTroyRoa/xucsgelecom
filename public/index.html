@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	<meta name="generator" content="Hugo 0.121.1">
+	<meta name="generator" content="Hugo 0.101.0" />
         <title>Xavier Botar Atenista</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
@@ -12,18 +12,18 @@
     </head>
     <body>
         <header class="fixed-top py-3 bg-light">
-            <div class="container">
+            <div class="d-none d-xl-block d-lg-block d-md-block container">
               <div
                 class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
               >
                 <a
-                  href="index.html"
+                  href="/"
                   class="align-items-center me-lg-auto text-decoration-none"
                 >
-                    <div class="brand blue-in-header">
+                    <div class="brand blue-in-header text-center">
                         BOTAR ATENISTA
                     </div>
-                    <div class="subbrand text-light">
+                    <div class="subbrand text-light text-center">
                         A THRUST FOR A CONSCIENTOUS VOTING
                     </div>
                 </a>
@@ -42,19 +42,56 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://xubotarlinks.netlify.app" target="_blank" class="nav-link blue-in-header header-link">
-                      Important Links
+                    <a href="#contact" class="nav-link blue-in-header header-link">
+                      Contact Us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/links.html" class="nav-link blue-in-header header-link">
+                      Links
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
+            <div class="container d-block d-sm-block d-md-none">
+              <div
+                class="d-flex flex-wrap align-items-center justify-content-between"
+              >
+                  <div class="mr-3">
+                      <a
+                          href="/"
+                          class="align-items-center me-lg-auto text-decoration-none"
+                      >
+                          <div class="brand blue-in-header text-center">
+                              BOTAR ATENISTA
+                          </div>
+                          <div class="subbrand text-light text-center">
+                              A THRUST FOR A CONSCIENTOUS VOTING
+                          </div>
+                      </a>
+                  </div>
+                <div class="dropdown ml-3 justify-content-center my-md-0">
+                    <button type="button" class="btn btn-outline-primary btn-md" data-bs-toggle="dropdown">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-listnav" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item blue-in-header header-link" style="font-size:14pt;" href="#home">Home</a></li>
+                        <li><a class="dropdown-item blue-in-header header-link" style="font-size:14pt;" href="#recent">Posts</a></li>
+                        <li><a class="dropdown-item blue-in-header header-link" style="font-size:14pt;" href="#contact">Contact</a></li>
+                        <li><a class="dropdown-item blue-in-header header-link" style="font-size:14pt;" href="/links.html">Links</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
         </header>
         <main class="text-dark">
-            <div class="background-landing">
+            <div id="background-landing">
                 <div class="container" id="home">
-                    <div class="row" style="height:100vh;">
-                        <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                    <div class="row text-wrap" style="height:100vh;">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-center welcome-section">
                             <div class="head-logo my-4 mx-auto">XU-CSG Electoral Commission</div>
                             <h2>Register your party now!</h2>
                             <a class="p-2 register-link text-decoration-none" target="_blank" href="https://drive.google.com/file/d/149VZ-Z43C_Zof8ojmW9dvCjfjNJVua9c/view?usp=drive_link">Registration Guide</a>
@@ -63,10 +100,26 @@
                 </div>
             </div>
             <div class="container" id="recent">
-                <div style="padding-top:24vh;padding-bottom:2em;">
+                <div class="post-section">
                    <h1 class="d-flex justify-content-center align-items-center">Posts</h1>
                    
                        
+                            <div class="d-flex flex-column py-4">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md- g-3 justify-content-center">
+                                    <div class="col">
+                                        <div class="card shadow-sm">
+                                            <a href="https://xucsg-elecom.netlify.com/posts/political-party-registration-guide-released/">
+                                                <img class="bd-placeholder-img card-img-top" alt="image" src="/images/political-guide.jpg" width="100%" height="auto" id="image">
+                                            </a>
+                                            <div class="card-body">
+                                                <h2 class="card-title">Political Party Registration Guide Released</h2>
+                                                <p class="card-text"><strong>Date Published: </strong>December 21, 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
                             <div class="d-flex flex-column py-4">
                                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md- g-3 justify-content-center">
                                     <div class="col">
@@ -116,6 +169,25 @@
                             </div>
                         
                     
+                </div>
+            </div>
+            <div class="container" id="contact">
+                <div class="post-section">
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                        <h1>Contact Us</h1>
+                        <p>Have questions? Submit them here!</p>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <form name="contact" method="POST" data-netlify="true" style="width: 450px;">
+                            <input class="form-control" type="text" id="name" name="name" placeholder="Name" required><br>
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Email" required><br>
+                            <input class="form-control" type="text" id="subject" name="subject" placeholder="Subject" required><br>
+                            <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message" style="height: 150px;resize: none;" required></textarea><br><br>
+                            <div class="text-center">
+                                <input class="btn btn-primary" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>
