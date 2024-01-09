@@ -55,6 +55,7 @@ p{
 }
 
 .blue-in-header, .btn-outline-primary{
+    border-color: #002E73;
     color: #002E73;
 }
 
