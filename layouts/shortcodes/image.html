@@ -1,6 +1,9 @@
+{{ $directory := .Get "directory" }}
+{{ $start := .Get "start" }}
+{{ $end := .Get "end" }}
 <div style="text-align:center;">
-    {{ range seq 1 20 }}
-        <img src="/images/pol-par-regis/{{ . }}.jpg" alt="My image" style="max-width:90%;">
+    {{ range seq $start $end }}
+        <img src="{{ $directory }}{{ . }}.jpg" alt="{{ . }}.jpg" style="max-width:90%;">
         <br>
         <br>
     {{ end }}
