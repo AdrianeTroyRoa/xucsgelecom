@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+.montserrat-brand {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 
 .brand{
-    font-weight:bold;
-    font-family:'Times New Roman';
-    font-size: 17pt;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 850;
+    font-style: normal;
+    font-size: 18pt;
+    color: #052140;
 }
 
 .d-flex{
@@ -13,12 +24,15 @@
 }
 
 .subbrand{
+    font-family: "Impact";
     font-weight:bold;
-    font-size: 7pt;
-    border: 1px transparent;
-    background-color: #002E73;
+    font-size: 9pt;
+    border-radius: 30em;
+    background-color: #FAD60B;
     padding: 5px;
-    text-shadow: 1px 1px black;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-shadow: -2px -2px 7px black;
 }
 
 h1 {
@@ -55,12 +69,13 @@ p{
 }
 
 .blue-in-header, .btn-outline-primary{
-    color: #002E73;
+    border-color: #052140;
+    color: #052140;
 }
 
-.footer-color, #background-landing{
+.footer-color{
     color: #ffd020;
-    background-color: #002E73;
+    background-color: #052140;
 }
 
 .footer-color{
@@ -74,40 +89,10 @@ p{
 }
 
 .register-link:hover{
-    color: #002E73;
+    color: #052140;
     background-color: #ffd020;
     box-shadow: 2px 2px 2px 2px #111;
 }
-
-.header-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #ffd020;
-    text-decoration-thickness: 3px;
-}
-
-.fb-link{
-    color: #002E73;
-}
-.fb-link:hover{
-    color: #1877F2;
-}
-
-.x-link{
-    color: #ffd020;
-}
-.x-link:hover{
-    border: 1px solid #333;
-    color: #eee;
-    background-color: #333;
-}
-
-.ig-link{
-    color: #ffd020;
-}
-.ig-link:hover{
-    color: #E4405F;
-}
-
 .carousel-control-prev-icon, .carousel-control-next-icon{
     font-size: 72pt;
     border: 1px transparent;
@@ -156,14 +141,33 @@ p{
 }
 
 .btn-primary, .btn-outline-primary:hover{
-    background-color: #002E73;
-    border-color: #002E73; 
+    background-color: #052140;
+    border-color: #052140;
 }
 
 .btn-outline-primary, {
-    border-color: #002E73; 
+    border-color: #052140;
 }
 
+#background-landing {
+    color: #ffd020;
+    background: linear-gradient(-45deg, #ee7752, #4397D6, #002E73, #052140);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+/**/
 @media (max-width: 540px) {
     .head-logo{
         font-size: 32pt;
