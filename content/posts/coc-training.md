@@ -1,5 +1,5 @@
 +++
-title = 'Commission Held COC Filing Training'
+title = 'Commission Holds COC Filing Training'
 date = 2024-02-24T15:00:00+08:00
 image = 'coc-training.jpg'
 draft = false
