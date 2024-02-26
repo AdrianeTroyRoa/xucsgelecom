@@ -1,5 +1,5 @@
 +++
-title = 'Filing of COC Officialy Starts'
+title = 'Filing of COC Officially Starts'
 date = 2024-02-26T09:00:00+08:00
 image = 'coc-start.jpg'
 draft = false
