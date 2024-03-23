@@ -1,6 +1,6 @@
 +++
 title = 'Meet the Candidates: UNITASS'
-date = 2024-03-17T12:00:00+08:00
+date = 2024-03-17T00:00:00+08:00
 image = 'unitass.jpg'
 draft = false
 +++
